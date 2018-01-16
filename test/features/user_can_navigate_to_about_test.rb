@@ -1,6 +1,7 @@
 require './test/test_helper'
 
 class LinkTest < CapybaraTestCase
+
   def test_user_can_see_the_homepage
     visit '/'
     click_on "About"
@@ -10,4 +11,4 @@ class LinkTest < CapybaraTestCase
     assert page.has_content?("About Me!")
   end
 
-end 
+end

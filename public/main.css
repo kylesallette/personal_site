@@ -1,3 +1,18 @@
 body {
-  background-color: blue;
+  background-color: ff704d;
+}
+
+/* Container holding the image and the text */
+.container {
+position: relative;
+text-align: center;
+color: white;
+}
+
+/* Welcome text*/
+.welcome_text {
+position: absolute;
+bottom: 750px;
+left: 650px;
+color: 0099cc;
 }
