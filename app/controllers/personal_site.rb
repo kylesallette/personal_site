@@ -8,6 +8,7 @@ class PersonalSite
     when '/about' then about
     when '/main.css' then css
     when '/blog' then blog
+    when '/projects' then projects
     else
       error
     end
@@ -24,9 +25,13 @@ class PersonalSite
   def self.blog
     render_view('blog.html')
   end
-  
+
   def self.index
     render_view('index.html')
+  end
+
+  def self.projects
+    render_view('projects.html')
   end
 
   def self.about
