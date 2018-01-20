@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color:black;
 }
 
 a { color:white }
@@ -8,8 +8,9 @@ a { color:white }
 .container {
 position: relative;
 text-align: center;
-color: white;
+color: black;
 }
+
 
 /* Welcome text*/
 .welcome_text {
@@ -18,6 +19,7 @@ bottom: 750px;
 left: 650px;
 color: white;
 }
+
 /* about link*/
 .about {
 position: absolute;
