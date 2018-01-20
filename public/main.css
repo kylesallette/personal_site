@@ -24,7 +24,7 @@ color: white;
 .about {
 position: absolute;
 bottom: 770px;
-left: 1000px;
+left: 1060px;
 color: white;
 }
 
@@ -32,7 +32,7 @@ color: white;
 .blog {
 position: absolute;
 bottom: 770px;
-left: 1100px;
+left: 1170px;
 color: white;
 }
 
@@ -40,7 +40,7 @@ color: white;
 .projects {
 position: absolute;
 bottom: 770px;
-left: 1165px;
+left: 1235px;
 color: white;
 }
 
@@ -70,3 +70,23 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
+header {
+  padding: 10px;
+  height: 10px;
+  word-break: break-word;
+  float:right;
+  }
+
+  article {
+    margin-left: 0px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: visible;
+    }
+
+  a {
+    font-family: sans-serif;
+    color: #c2c4c6;
+    padding: 0px 15px;
+    }
