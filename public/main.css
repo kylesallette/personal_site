@@ -11,7 +11,7 @@ a { color:white }
 position: relative;
 text-align: center;
 color: black;
-border: 1px solid white;
+border: 1px solid grey;
 }
 
 
@@ -27,7 +27,7 @@ color: white;
 .about {
 position: absolute;
 bottom: 770px;
-left: 1060px;
+left: 30px;
 color: white;
 }
 
@@ -35,7 +35,7 @@ color: white;
 .blog {
 position: absolute;
 bottom: 770px;
-left: 1170px;
+left: 130px;
 color: white;
 }
 
@@ -43,7 +43,7 @@ color: white;
 .projects {
 position: absolute;
 bottom: 770px;
-left: 1235px;
+left: 190px;
 color: white;
 }
 
@@ -72,6 +72,7 @@ hr {
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
+    color: white;
 }
 
 header {
@@ -90,13 +91,13 @@ header {
 
   a {
     font-family: sans-serif;
-    color: #c2c4c6;
+    color: white;
     padding: 0px 15px;
     }
     footer {
       padding: 1em;
       color: white;
-      background-color:#ff6600;
+      background-color:#efe6a2;
       clear: left;
       text-align: left;
       }
