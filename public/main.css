@@ -114,9 +114,12 @@ header {
     padding: 0px 15px;
     }
     footer {
-      padding: 1em;
+      position: absolute;
       color: white;
       background-color:#efe6a2;
       clear: left;
       text-align: left;
+      width: 100%;
+      overflow:hidden;
+
       }
