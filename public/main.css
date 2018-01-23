@@ -1,7 +1,11 @@
-
-
 body {
-  background-color:black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+html {
+    height: 100%;
 }
 
 ul {
@@ -17,9 +21,9 @@ ul li {
 }
 
 ul li a {
-  width: 80px;
-  height: 75px;
-  font-size: 35px;
+  width: 80%;
+  height: 80%;
+  font-size: 200%;
 }
 
 ul li a:hover .fa {
@@ -52,7 +56,7 @@ color: white;
 .blog {
 position: absolute;
 bottom: 94%;
-left: 9%;
+left: 11%;
 color: white;
 }
 
@@ -60,7 +64,7 @@ color: white;
 .projects {
 position: absolute;
 bottom: 94%;
-left: 13%;
+left: 17%;
 color: white;
 }
 
@@ -87,6 +91,7 @@ left: 50px;
 hr {
     display: block;
     height: 1px;
+    width: auto;
     border: 0;
     border-top: 1px solid #ccc;
 
